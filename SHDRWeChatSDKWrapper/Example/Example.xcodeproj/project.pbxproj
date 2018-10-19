@@ -13,6 +13,7 @@
 		1704CA4521799F340031DFE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1704CA4421799F340031DFE2 /* Assets.xcassets */; };
 		1704CA4821799F340031DFE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1704CA4621799F340031DFE2 /* LaunchScreen.storyboard */; };
 		1704CA5621799F570031DFE2 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 1704CA5521799F570031DFE2 /* Cartfile */; };
+		1704CA5C2179A9DF0031DFE2 /* SHDRWeChatSDKWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1704CA5B2179A9DF0031DFE2 /* SHDRWeChatSDKWrapper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1704CA4721799F340031DFE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1704CA4921799F340031DFE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1704CA5521799F570031DFE2 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		1704CA5B2179A9DF0031DFE2 /* SHDRWeChatSDKWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SHDRWeChatSDKWrapper.framework; path = ../Carthage/Build/iOS/SHDRWeChatSDKWrapper.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1704CA5C2179A9DF0031DFE2 /* SHDRWeChatSDKWrapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +46,7 @@
 				1704CA5521799F570031DFE2 /* Cartfile */,
 				1704CA3C21799F330031DFE2 /* Example */,
 				1704CA3B21799F330031DFE2 /* Products */,
+				1704CA5A2179A9DF0031DFE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				1704CA4921799F340031DFE2 /* Info.plist */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		1704CA5A2179A9DF0031DFE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1704CA5B2179A9DF0031DFE2 /* SHDRWeChatSDKWrapper.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
